@@ -23,7 +23,6 @@ li{
   padding-top: 2%;
   position: relative;
   top:12rem;
-  font-size: 120%;
 }
 #fn a{
   text-decoration: none;
@@ -31,7 +30,7 @@ li{
 }
 .fnget{
    position:relative;
-   left:6rem;
+   left:3.5rem;
 }
 .ladg{
   color:white;
@@ -173,13 +172,15 @@ li{
   .c2 h2{
     font-size: 100%;
   }
+
 }
 /* ///////////////////////////////contact////////////////////////////////////////// */
 .cont-f{
   position:relative;
   top:10rem;
   margin-left:3rem;
-  line-height: 1.5;
+  width:40rem;
+  height:52rem;
 }
 .cont-c{
   position:relative;
@@ -190,4 +191,13 @@ li{
 .map{
   height:50%;
   width:50%;
+}
+@media (max-width:680px){
+  .cont-f{
+    position:relative;
+    top:8rem;
+    margin-left:0;
+    width:24rem;
+    height:53rem
+  }
 }
