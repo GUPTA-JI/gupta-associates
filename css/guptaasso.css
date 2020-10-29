@@ -226,5 +226,13 @@ li{
 
 
 .myform {
-  top:500px;
+  position: relative;
+  top:150px;
+  line-height: 200%;
+  width:80%;
+  padding:10px;
+}
+
+.myform input {
+  width:100%;
 }
